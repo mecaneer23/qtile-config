@@ -1,5 +1,5 @@
 #!/bin/bash
 
-picom &
-nm-applet &
-nitrogen --restore &
+picom & # compositor (lower background opacity)
+nm-applet & # Network Manager (wifi and stuff)
+nitrogen --restore & # Background chooser (select wallpaper)
